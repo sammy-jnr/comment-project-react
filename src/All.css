@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.3;
+}
+.App{
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.Maincomments_div{
+    position: absolute;
+    width: 350px;
+    margin: auto;
+    min-height: 200px;
+    height: auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+.commentfirstline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profilepicture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 20px;
+}
+.username{
+    font-weight: 900;
+}
+
+.dateposted{
+    top: 2px;
+    position: relative;
+    margin-left: 20px;
+}
+.vote{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(83, 27, 189);
+    font-weight: 700;
+    background-color: rgb(231, 229, 241);
+    padding:5px 10px;
+    border-radius: 5px;
+}
+.commentlastline{
+    width: auto;
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.replybutton{
+    display: flex;
+    align-items: center;
+
+}
+.replybutton_text{
+    margin-left: 10px;
+    color: rgba(81, 32, 214, 0.863);
+}
+
+/* input container css */
+.inputpanel_container{
+    display: absolute;
+    margin-top: auto;
+    min-width: 330px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.inputtext{
+    width: 300px;
+    margin-bottom: 10px;
+    height: 60px;
+    border: 1px solid rgb(212, 209, 209);
+    font-size: 15px;
+    padding: 5px;
+}
+.inputdiv_lastline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.commentbtn{
+    width: 70px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    justify-content: center;
+    font-size: 15px;
+    background-color: rgba(20, 5, 156, 0.692);
+    border-radius: 6px;
+}
